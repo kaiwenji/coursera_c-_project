@@ -1,0 +1,50 @@
+.city{
+  flex: 1 1 auto;
+  height: 250px;
+  margin:20px;
+  border:1px solid black;
+  display:flex;
+  flex-direction:column;
+
+  &.red {
+    background:red;
+    color:white;
+  }
+  &.blue{
+    background: blue;
+    color:white;
+  }
+}
+.city-container{
+  display:flex;
+  flex-direction:row;
+  width:70%;
+  height:250px;
+  margin: 0 auto;
+  padding:50px;
+}
+.camp{
+  .city;
+}
+.color-white{
+  color:white;
+}
+
+.city-row{
+  flex: 1 1 auto;
+  display:flex;
+  flex-direction:row;
+}
+
+.warrior{
+  width: 50%;
+  border:1px solid black;
+  color:white;
+  background:white;
+  &.red{
+    background:red;
+  }
+  &.blue{
+    background:blue;
+  }
+}
